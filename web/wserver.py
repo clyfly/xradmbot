@@ -19,7 +19,7 @@ aria2 = ariaAPI(ariaClient(host="http://localhost", port=6800, secret=""))
 
 LOGGER = getLogger(__name__)
 
-rawowners = "<h1 style='text-align: center'>See my Channel <a href='https://telegram.me/z_mirror'>@Telegram</a><br><br>By<br><br><a href='https://github.com/Dawn-India/Z-Mirror'>Z-Mirror</a></h1>"
+rawowners = "<h1 style='text-align: center'>See my Channel <a href='https://telegram.me/xyradelw'>@Telegram</a><br><br>By<br><br><a href='https://github.com/Dawn-India/Z-Mirror'>Z-Mirror</a></h1>"
 
 pin_entry = '''
     <section>
