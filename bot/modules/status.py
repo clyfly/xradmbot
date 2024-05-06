@@ -85,7 +85,7 @@ def bot_sys_stats():
             extr += 1
         elif status == MirrorStatus.STATUS_SEEDING:
             seed += 1
-    bmsg = f'______Zee Bot Info______\n\n'
+    bmsg = f'______xyrad Bot Info______\n\n'
     bmsg += f'C: {cpup}% | R: {ramp}% | D: {disk}%\n\n'
     bmsg += f'T : {totl} | F : {free} | Q : {inqu}\n'
     bmsg += f'DL: {dwld} | UL: {upld} | SD: {seed}\n'
@@ -252,7 +252,7 @@ async def send_bot_limits(_, query):
     UMT = 'Unlimited' if config_dict['USER_MAX_TASKS']  == '' else config_dict['USER_MAX_TASKS']
     BMT = 'Unlimited' if config_dict['QUEUE_ALL']       == '' else config_dict['QUEUE_ALL']
 
-    bot_limit = f'<b><i><u>Zee Bot Limitations</u></i></b>\n' \
+    bot_limit = f'<b><i><u>Xyrad Bot Limitations</u></i></b>\n' \
                 f'<code>Torrent   : {TOR}</code> <b>GB</b>\n' \
                 f'<code>G-Drive   : {GDL}</code> <b>GB</b>\n' \
                 f'<code>Yt-Dlp    : {YTD}</code> <b>GB</b>\n' \
