@@ -128,7 +128,7 @@ async def update_user_settings(query):
     user_id = query.from_user.id
     tpath = f"Thumbnails/{user_id}.jpg"
     if not ospath.exists(tpath):
-        tpath = "https://graph.org/file/a6abb9cc4c69f92050477.png"
+        tpath = "https://telegra.ph/file/affaf6c8a27d9ebaf8f58.png"
     await query.message.edit_media(
         media=InputMediaPhoto(media=tpath, caption=msg), reply_markup=button)
 
@@ -138,7 +138,7 @@ async def user_settings(_, message):
     user_id = message.from_user.id
     tpath = f"Thumbnails/{user_id}.jpg"
     if not ospath.exists(tpath):
-        tpath = "https://telegra.ph/file/1986b26e96c500bca9d31.png"
+        tpath = "https://telegra.ph/file/affaf6c8a27d9ebaf8f58.png"
     usetMsg = await message.reply_photo(tpath, caption=msg, reply_markup=button)
     await auto_delete_message(message, usetMsg)
 

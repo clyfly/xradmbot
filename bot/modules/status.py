@@ -218,7 +218,7 @@ async def send_repo_stats(_, query):
                 update_info =  f'⚠️ New Version Update Available ⚠️\n'
                 update_info += f'Update ASAP and experience new features and bug-fixes.'
         
-    repo_stats = f'<b><i><u>Zee Repository Info</u></i></b> \n\n' \
+    repo_stats = f'<b><i><u>Main Repository Info</u></i></b> \n\n' \
                  f'<b><i>Official Repository</i></b>        \n'   \
                  f'<code>- Updated   : </code> {commit_date}\n'   \
                  f'<code>- Version   : </code> {vtag}       \n'   \
