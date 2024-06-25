@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   app:
-    container_name: xyrad-m
+    container_name: MeiYongHua
     build:
       context: .
       dockerfile: Dockerfile
